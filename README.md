@@ -82,6 +82,7 @@ Run the following command：
 | MODE                          | cluster/standalone                     | cluster/standalone default **cluster** |
 | PREFER_HOST_MODE              | Whether hostname are supported         | hostname/ip default **ip**             |
 | NACOS_SERVER_PORT             | nacos server port                      | default **8848**                       |
+| NACOS_SERVER_IP             | custom nacos server ip when network was mutil-network                      |                         |
 | SPRING_DATASOURCE_PLATFORM    | standalone support mysql               | mysql / empty default empty            |
 | MYSQL_MASTER_SERVICE_HOST     | mysql master host                      |                                        |
 | MYSQL_MASTER_SERVICE_PORT     | mysql master database port             | default : **3306**                     |
