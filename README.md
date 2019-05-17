@@ -4,7 +4,7 @@
 
 This project contains a Docker image meant to facilitate the deployment of [Nacos](https://github.com/alibaba/nacos).
 
-
+原仓库地址https://github.com/nacos-group/nacos-docker.git
 ## Project directory
 
 * build：Nacos makes the source code of the docker image
@@ -19,7 +19,7 @@ Run the following command：
 * Clone project
 
   ```powershell
-  git clone https://github.com/nacos-group/nacos-docker.git
+  git clone https://github.com/451846939/nacos-docker
   cd nacos-docker
   ```
     ```powershell
