@@ -22,23 +22,24 @@ Run the following command：
   git clone https://github.com/nacos-group/nacos-docker.git
   cd nacos-docker
   ```
-
-
+    ```powershell
+        docker swarm init
+    ```
 * Standalone Derby
 
   ```powershell
-  docker-compose -f example/standalone-derby.yaml up
+  docker stack deploy -c example/standalone-derby.yaml nacos
   ```
 * Standalone Mysql
 
   ```powershell
-  docker-compose -f example/standalone-mysql.yaml up
+  docker stack deploy -c example/standalone-mysql.yaml nacos
   ```
 
 * Cluster
 
   ```powershell
-  docker-compose -f example/cluster-hostname.yaml up 
+  docker stack deploy -c example/cluster-hostname.yaml nacos
   ```
 
 
