@@ -23,7 +23,7 @@ Run the following command：
   cd nacos-docker
   ```
     ```powershell
-        docker swarm init
+    docker swarm init
     ```
 * Standalone Derby
 
